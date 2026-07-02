@@ -13,4 +13,6 @@ require(__DIR__."/utils/error.php");
 // saveProduct();
 
 archiverProduit();
-saveProduct();
+// saveProduct();
+listerProduits($productsArchived);
+listerProduits($products);

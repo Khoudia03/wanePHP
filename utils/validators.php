@@ -29,3 +29,11 @@ function getProductByLibele (array $products, string $value): int{
             }
             return -1 ;
 }
+
+function listerProduits(array $products) : void {
+    foreach ($products as $product){
+        // echo $product["libele"]."\n";
+        
+        echo "Libellé: {$product["libele"]}\n";
+    }
+}
