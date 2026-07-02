@@ -6,13 +6,20 @@ require(__DIR__."/models/produit.models.php");
 require(__DIR__."/services/service.php");
 require(__DIR__."/utils/validators.php");
 require(__DIR__."/utils/error.php");
+require(__DIR__."/controllers/client.controllers.php");
+require(__DIR__."/models/client.models.php");
+require(__DIR__."/view/client.view.php");
+require(__DIR__."/models/commande.models.php");
 
 
 
 
 // saveProduct();
 
-archiverProduit();
+// archiverProduit();
 // saveProduct();
-listerProduits($productsArchived);
-listerProduits($products);
+// listerProduits($productsArchived);
+// listerProduits($products);
+
+saveClient();
+listerClientsSansCommande();
