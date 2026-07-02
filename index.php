@@ -8,6 +8,8 @@ require(__DIR__."/utils/validators.php");
 require(__DIR__."/utils/error.php");
 require(__DIR__."/controllers/client.controllers.php");
 require(__DIR__."/models/client.models.php");
+require(__DIR__."/view/client.view.php");
+require(__DIR__."/models/commande.models.php");
 
 
 
@@ -20,3 +22,4 @@ require(__DIR__."/models/client.models.php");
 // listerProduits($products);
 
 saveClient();
+listerClientsSansCommande();
