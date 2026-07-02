@@ -19,3 +19,13 @@ function estPositif(string $value, array &$errors, string $msgErrors, string $ke
         $errors[$key] = $msgErrors;
     }
 }
+
+
+function getProductByLibele (array $products, string $value): int{
+    foreach ($products as $index => $product) {
+                    if ($product["libele"] == $value){
+                    return $index;
+                }
+            }
+            return -1 ;
+}

@@ -10,4 +10,7 @@ require(__DIR__."/utils/error.php");
 
 
 
+// saveProduct();
+
+archiverProduit();
 saveProduct();
